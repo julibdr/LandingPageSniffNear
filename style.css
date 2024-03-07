@@ -73,4 +73,7 @@ font-size: 40px;
     .mobile-img{
         display: block;
     }
+    .vision{
+        display: none !important;
+    }
 }
