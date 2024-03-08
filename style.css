@@ -61,6 +61,52 @@ font-size: 40px;
 .mobile-img{
     display: none;
 }
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    color: var(--color-green);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-toggler {
+    order: -1; 
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    margin: auto; 
+    margin-top: auto;
+    display: flex;
+  }
+
+  .navbar-toggler {
+    outline: none; 
+    border: none; 
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none; 
+  }
+
 @media only screen and (max-width: 600px) {
     .footerImg {
         max-width: 100%;
@@ -76,4 +122,5 @@ font-size: 40px;
     .vision{
         display: none !important;
     }
+    
 }
